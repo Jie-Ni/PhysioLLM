@@ -1,0 +1,19 @@
+# Ignore data files (too large for GitHub)
+data/processed/*.h5ad
+data/raw/*.fastq
+data/raw/*.csv
+*.h5ad
+*.csv
+*.pt
+*.pth
+
+# Ignore generated results
+results/
+!results/.gitkeep
+
+# Ignore system files and caches
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.ipynb_checkpoints/
